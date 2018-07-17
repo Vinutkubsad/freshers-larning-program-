@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 100vh;
+
+}
+
+.login-layout {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid black;
+    box-shadow: 6px 2px 14px 0px blue;
+    max-width: 400px;
+    width: 400px;
+    max-height: 400px;
+    height: 400px;
+
+}
+
+.login-layout>.app-name {
+    padding: 23px;
+}
+
+.login-layout>input {
+    margin: 12px;
+    height: 40px;
+}
+
+.login-layout>button {
+    border: 2px solid black;
+    height: 40px;
+    width: 55px;
+
+}
