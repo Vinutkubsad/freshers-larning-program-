@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<title>Reverse number</title>
+<script type ="text/javascript">
+function revnum()
+{
+var num = prompt("Enter the number to be reveresed :", " ");
+var a= num;
+var rev = 0, rem;
+while (a>0)
+{
+rem = a % 10;
+rev = rev * 10 + rem ;
+a = Math.floor(a/10);
+}
+document.write("The given number is : " +num+ " <br/> The reversed number is : " +rev+ "\n");
+}
+ 
+</script>
+<body style="background-color:green" onload="revnum();">
+<body>
+</html>
+

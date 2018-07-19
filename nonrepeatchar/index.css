@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 50px;
+    
+}
+
+
+.audio {
+    align-content: center;
+}
